@@ -1,0 +1,99 @@
+<html>
+<head>
+<title> Summer Blog </title>
+<style>
+body
+{
+font-family: "Courier New", Courier, monospace;
+
+}
+body{
+background-color: black;
+ background-color: black;
+    -webkit-animation-name: fade; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 20s; /* Safari 4.0 - 8.0 */
+    animation-name: fade;
+    animation-duration: 20s;
+  
+ border-left: 50px solid gray;
+ padding-left: 20px;
+ border-right: 50px solid gray;
+ padding-right: 20px;
+ 
+}
+@-webkit-keyframes fade {
+    from {background-color: black;}
+    to {background-color: #0d0e44;}
+
+}
+
+
+/* Standard syntax */
+@keyframes example {
+    from {background-color: black;}
+    to {background-color: #0d0e44;}
+}
+h1{
+color: white;
+padding-left: 20px;
+}
+h2{
+color: gray;
+padding-left: 10px;
+}
+ol{
+background-color:#db7d2b;
+}
+#art1 {
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 25%;
+  
+   
+}
+#art2{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 25%;
+height: 40%;
+}
+
+#art3{
+display: block;
+    margin-left: auto;
+    margin-right: auto;
+width: 25%;
+height: 40%;
+
+}
+
+
+img{
+border: 5px solid gray;
+
+
+}
+</style>
+
+</head>
+<body>
+
+<h1> ArtZ Images </h1>
+<h2> How to get hella trill images</h2>
+<ol>
+<li>Find some moody lighting</li>
+<li>Locate obscure objects</li>
+<li>Turn the exposure waaaay up</li>
+<li>Write "Art is Dead" on every image with stylish placement</li>
+</ol>
+<img  src= "art1.jpg"  id="art1" length = 250  width = 150 >
+<img src= "art2.jpg" id="art2"  align = "left" length = 600  width = 500>
+<img src= "art3.JPG" id="art3" align = "right" length = 600  width = 500>
+</body>
+
+
+
+
+</html>
